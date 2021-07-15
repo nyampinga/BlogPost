@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css"/>
+            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <title> MY Blogpost</title>
+
+    </head>
+    <body>
+<div class="header">
+  
+    <div class="logo">  <img src="../assets/lib.png"></div>
+
+    <div class="topnav">
+                    <a href="#home" class="active">
+                        <i class="uil uil-estate nav_icon"></i>Home
+                    </a>
+                    <a href="./pages/about.html">
+                        <i class="uil uil-user nav_icon" ></i>About us
+                    </a>
+                    <a href="./pages/skills.html" >
+                        <i class="uil uil-file-alt nav_icon"></i>Skills
+                     </a>
+                    <a href="./pages/testmonial.html">
+                        <i class="uil uil-briefcase-alt nav_icon"></i>Testmonial
+                    </a>
+
+                    <a href="./pages/contact.html">
+                        <i class="uil uil-message nav_icon"></i>ContactMe
+                    </a>
+        <a href="#"  onclick="document.getElementById('showmodal').style.display='block'"> Sign in</a>
+        
+
+    </div>
+
+</div>
+
+<div id="showmodal" class="signinModal">
+
+    <div class="siginCard">
+<!-- <div></div> -->
+        <span id="close" onclick="document.getElementById('showmodal').style.display='none'" class="close" title="close Modal">&times;</span>
+        <h1>Login Form</h1>
+
+        <label> <b> Username:</b></label>
+        <input class="inputLogin" type="text" placeholder="Enter your Username" name="uname" />
+
+        <label> <b> Password:</b></label>
+        <input class="inputLogin" type="password" placeholder="Enter your Password" name="password" />
+
+        <button type="submit" class="loginbutton"> Login</button> <br/>
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember">
+            Rembember me.
+        </label>
+
+    </div>
+
+</div>
+
+
+<div class="container">
+
+    <div class="sidenav">
+
+<h1>Categories</h1>
+
+<a href="#">
+   <i class="uil uil-book button_icon"></i> Academic library
+</a>
+<a href="#">
+   <i class="uil uil-backpack button_icon"></i> Association library
+</a>
+<a href="#" class="lib">
+   <i class="uil uil-slack button_icon"></i> National library
+</a>
+<a href="#" class="lib1">
+  <i class="uil uil-circle-layer button_icon"></i>  Library of Things
+</a>
+<a href="#" class="lib1">
+   <i class="uil uil-university button_icon"></i> Universal library
+</a>
+<a href="#" class="lib1">
+  <i class="uil uil-cell button_icon"></i>  Corporate library
+</a>
+<a href="#" class="lib1">
+  <i class="uil uil-hourglass button_icon"></i>  Circulating library
+</a>
+<a href="./pages/contact.html" class="lib2">
+      <i class="uil uil-message button_icon"></i>  Contact Me 
+        
+    </a>
+    <div class="home_social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://dribbble.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-dribbble"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+    </div>
+    <div class="content">
+
+        <div class="searchcontainer"> 
+            <form>
+                <input type="text" placeholder="Search" name="search" class="input-search"/>
+            </form>
+        </div>
+  <div class="cardcontainer">
+
+            <div class="onecardcontent">
+
+   <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+        <div class="skills_container container grid" style="margin-left: 300px;">
+            <div>
+                <div class="skills_content skills_open">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title"> Frontend Developer</h1>
+                            <span class="skills_subtitle">More than 4 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">CSS</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Javascript</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+ <!--========== SKILLS 2 ==========-->
+
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-server-network skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title"> Backend Developer</h1>
+                            <span class="skills_subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Java</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_java"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">PHP</h3>
+                                <span class="skills_number">75%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_php"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Python</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_python"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+ <!--========== SKILLS 3 ==========-->
+            <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-swatchbook skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title"> Designer</h1>
+                            <span class="skills_subtitle">More than 1 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Figma</h3>
+                                <span class="skills_number">10%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_figma"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Sketch</h3>
+                                <span class="skills_number">7%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_sketch"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Photoshop</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_photoshop"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+        </div>
+    </section>
+    </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="footer_bg" style="margin-top: 760px;
+    margin-left: -1346px;
+    width: 1342px"
+    ;>
+        <div class="footer_container container grid">
+            <div>
+                <h1 class="footer_title">Nyampinga</h1>
+                <span class="footer_subtitle">Frontend Developer</span>
+            </div>
+            <ul class="footer_links">
+                <li>
+                     <a href="./pages/testmonial.html"style="color: white;">
+                        <i class="uil uil-briefcase-alt nav_icon"></i>Testmonial
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/skills.html" style="margin-right: 40px;color: white;">
+                        <i class="uil uil-file-alt nav_icon"></i>Skills
+                     </a>
+                   
+                </li>
+                <li>
+                    <a href="./pages/contact.html"style="color: white;">
+                        <i class="uil uil-message nav_icon"></i>ContactMe
+                    </a>
+                </li>
+
+            </ul>
+            <div class="footer_socials">
+                <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                    <i class="uil uil-facebook-f button_icon"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                    <i class="uil uil-instagram button_icon"></i>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank" class="footer_social">
+                    <i class="uil uil-twitter-alt button_icon"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer_copy">2021 &#169; All right reserved</p>
+    </div>
+    
+</footer>
+<a href="#" class="scrollup" id="scroll_up">
+    <i class="uil uil-arrow-up scrollup_icon"></i>
+</a>
+
+<script src="./js/myscript.js" ></script>
+    </body>
+</html>
